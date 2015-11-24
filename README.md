@@ -2,11 +2,9 @@
 Give the SIG viewer into DEVSimPy. Work with the SIG DEVSimPy Lib.
 
 #Depends
-* [python-psutil](https://pypi.python.org/pypi/psutil) for cpu usage
-* [networkx](https://networkx.github.io/) and [pylab](https://pypi.python.org/pypi/pylab) for graph
-* [radon](https://pypi.python.org/pypi/radon) for metrics
-* codepaths file
-			 
+* [ftplib](https://docs.python.org/2/library/ftplib.html)
+* ExtendedFrame file
+* 
 #Installation
 In order to view the SIG viewer plugin in the DEVSimPy plugin manager (Options->Preferences->Plugins), just:
 * add the view_sig.py and the ExtendedFrame.py files into the "plugins" directory of DEVSimPy 
